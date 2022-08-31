@@ -6,15 +6,13 @@
 }
 .main{
     background-color: rgb(235, 229, 217);
-    width: 90vw;
+    width: 85vw;
 }
-.sidebar nav{
-    padding: 45px;
-}
+
 .sidebar nav li{
     list-style: none;
-    font-size: 30px;
-    padding: 33px 0;
+    font-size: 25px;
+    padding: 30px 0;
 }
 
 .sidebar nav li a{
@@ -22,7 +20,7 @@
     color: black;
 }
 .sidebar{
-    background-color: grey;
+    background-color: rgb(158, 155, 155);
     width : 434px;
     font-family: 'Fira Sans', sans-serif;
     height: 120vh;
@@ -62,7 +60,7 @@
     margin-top: 34px;  
 }
 
-.buttons button{
+.btn{
     padding: 9px 14px;
     border-radius: 22px;
     color: white;
@@ -72,7 +70,11 @@
     margin: 0 3px;
 }
 
-.buttons button:hover{
+.btn-sm{
+    font-size: 10px;
+}
+
+.btn:hover{
     color: lightseagreen;
     background-color: white;
 }
@@ -88,4 +90,55 @@
 
 .about{
     font-size: 30px;
+}
+
+.contactform h1{
+    font-family: 'Source code pro', monospace;
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Fira Sans', sans-serif
+}
+
+.contactform form div{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: rgb(113, 181, 236);
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check-input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogitem{
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.blogcontainer h1{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.blogitem p{
+    font-family: 'Source code pro', monospace;
 }
