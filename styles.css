@@ -6,7 +6,7 @@
 }
 .main{
     background-color: rgb(235, 229, 217);
-    width: 85vw;
+    width: 90vw;
 }
 
 .sidebar nav li{
@@ -20,8 +20,8 @@
     color: black;
 }
 .sidebar{
-    background-color: rgb(158, 155, 155);
-    width : 434px;
+    background-color: rgb(134, 125, 125);
+    width : 180px;
     font-family: 'Fira Sans', sans-serif;
     height: 120vh;
 }
@@ -97,12 +97,14 @@
 }
 
 .contactform{
+    font-size: 20px;
     padding: 0 34px;
     padding-top: 144px;
     font-family: 'Fira Sans', sans-serif
 }
 
 .contactform form div{
+    font-size: 30px;
     padding: 15px 0;
     display: flex;
     flex-direction: column;
@@ -141,4 +143,30 @@
 
 .blogitem p{
     font-family: 'Source code pro', monospace;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;    
+}
+
+.cross{
+    margin-left: 150px;
+}
+
+@media (max-width: 1650px){
+    *{
+        background-color: red;
+    }
+    /* .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
 }
